@@ -27,6 +27,7 @@ export async function POST(req: Request) {
     const subscription = await stripe.subscriptions.retrieve(
       session.subscription as string
     );
+
     if (!session?.metadata?.userId) {
       return new NextResponse("User id is required", { status: 400 });
     }
