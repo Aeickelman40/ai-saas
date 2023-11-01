@@ -28,9 +28,9 @@ export default function RootLayout({
           <ModalProvider />
           <ToasterProvider />
           {children}
+          <Analytics />
         </body>
       </html>
-      <Analytics />
     </ClerkProvider>
   );
 }
