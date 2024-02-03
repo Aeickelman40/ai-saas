@@ -1,3 +1,7 @@
+# Full Stack SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe
+
+For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
+
 This is a repository for Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, and Stripe
 
 [DEPLOYED WEBSITE](https://ai-saas-blond.vercel.app/)
@@ -26,7 +30,7 @@ Features:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-ai-saas.git
+git clone https://github.com/Aeickelman40/ai-saas.git
 ```
 
 ### Install packages
